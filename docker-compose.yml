@@ -1,0 +1,6 @@
+version: "2.2"
+services:
+  consulta_nfe:
+    build: .
+    ports:
+      - "6060:6060"
